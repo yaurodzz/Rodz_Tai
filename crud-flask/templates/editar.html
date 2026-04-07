@@ -1,0 +1,11 @@
+<h1>Editor de Alunos Cadastrados</h1>
+
+<form method="POST" action="/atualizar/{{ aluno.id }}">
+    Nome:
+    <input type="text" name="nome" value="{{ aluno.nome }}">
+
+    Idade:
+    <input type="number" name="idade" value="{{ aluno.idade }}">
+    
+    <button type="submit">Atualizar</button>
+</form>
